@@ -37,7 +37,7 @@ int main()
 		S = a;
 		do {
 			n++;
-			R = (pow(-1, n) * (x * x)) / (2 * ((double)n )* pow(-1, n - 1));
+			R = (-1)*(x * x) / (2 * (1.* n));
 			a *= R;
 			S += a;
 		} while (abs(a) >= eps);
